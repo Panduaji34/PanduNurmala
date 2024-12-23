@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANDU NURMALA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-gradient">
+    <!-- Backsound -->
+    <audio autoplay loop>
+        <source src="ANDMESH - ANUGERAH TERINDAH (VIDEO LIRIK) LIRIK LAGU TERBARU [LY5G34x60os].mp3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+<body class="bg-gradient">
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="profile-header text-center">
+                <img src="p3.jpeg" alt="Profile Picture" class="profile-picture rounded-circle">
+                <h1 class="profile-name">Pandu Nurmala</h1>
+            </div>
+            <div class="links-container text-center">
+                <a href="https://www.instagram.com/panduaji.a_/profilecard/?igsh=b3lhMTVuOTNzbGtj" class="link">
+                    <i data-feather="instagram" class="icon"></i> Instagram Pandu
+                </a>
+                <a href="https://www.instagram.com/epi_nmala?igsh=a2JwdGdqanowb2I3" class="link">
+                    <i data-feather="instagram" class="icon"></i> Instagram Epi Nurmala
+                </a>
+                <a href="https://www.example.com" class="link" target="_blank">
+                    <i data-feather="link" class="icon"></i> Tentang Kami
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        feather.replace();
+    </script>
+    <style>
+        /* Gradient background */
+        body.bg-gradient {
+            background: linear-gradient(135deg, #07f3ffd6, #00a6ffcf, #ff7003e4);
+            background-size: 300% 300%;
+            animation: gradientAnimation 6s ease infinite;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Styling Profile Card */
+        .profile-card {
+            background-color: rgba(44, 62, 80, 0.9); /* Semi-transparent dark background */
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Soft shadow */
+            text-align: center;
+            width: 350px;
+            transition: all 0.3s ease;
+            overflow: hidden; /* Prevent elements from overflowing the rounded borders */
+        }
+
+        .profile-card:hover {
+            transform: translateY(-10px) scale(1.05); /* Smooth scaling effect */
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+        }
+
+        /* Profile Picture */
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid #fff;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .profile-picture:hover {
+            transform: scale(1.1); /* Slight zoom on hover */
+        }
+
+        /* Profile Name */
+        .profile-name {
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 15px;
+            color: #fff;
+            text-transform: capitalize;
+        }
+
+        /* Links Container */
+        .links-container {
+            margin-top: 20px;
+        }
+
+        /* Individual Link */
+        .link {
+            display: flex;
+            align-items: center; /* Align items horizontally */
+            justify-content: center;
+            font-size: 16px;
+            color: #fff;
+            text-decoration: none;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #0477eb;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        /* Hover Effect on Link */
+        .link:hover {
+            background-color: #34495e;
+            transform: translateX(5px); /* Slide effect on hover */
+        }
+
+        .icon {
+            margin-right: 10px; /* Space between the icon and text */
+            transition: color 0.3s ease;
+        }
+
+        /* Hover Effect on Icon */
+        .link:hover .icon {
+            color: #fff; /* Change icon color on hover */
+        }
+
+        /* Media Query for Mobile */
+        @media (max-width: 600px) {
+            .profile-card {
+                width: 80%; /* Reduce card width on smaller screens */
+                padding: 20px;
+            }
+
+            .profile-name {
+                font-size: 20px; /* Adjust font size */
+            }
+
+            .link {
+                font-size: 14px; /* Adjust link font size */
+                padding: 8px; /* Adjust padding */
+            }
+
+            .profile-picture {
+                width: 120px; /* Smaller profile picture on mobile */
+                height: 120px;
+            }
+        }
+    </style>
+</body>
+</html>
